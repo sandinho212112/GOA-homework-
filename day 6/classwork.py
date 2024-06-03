@@ -9,3 +9,13 @@ print(addition_results)
 print(division_results)
 print(substruction_results)
 print(multiplication_results)
+# information from the customer
+name = input("enter your name")
+surname = input("enter your surname")
+age = int(input("enter your age"))
+email = input("enter your email")
+
+print(name)
+print(surname)
+print(age)
+print(email)
