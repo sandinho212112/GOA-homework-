@@ -1,0 +1,27 @@
+<head>
+    <title>Register - Goal-Oriented Academy</title>
+</head>
+<body>
+        <h1>Register at Goal-Oriented Academy</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            <h2>Registration Form</h2>
+            <form action="submit_registration.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="webdev">Web Development</option>
+                    <option value="pythoncou">Python Course</option>
+                </select>
+                
+                <input type="submit" value="Register">
+</body>
